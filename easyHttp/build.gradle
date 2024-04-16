@@ -51,7 +51,7 @@ afterEvaluate {
                 url = 'https://packages.aliyun.com/maven/repository/2464536-release-TqUGM3/'
                 credentials {
                     it.username = '661d23c8f5d9fd6648895f7d'
-                    it.password = 'sTpQjOjc6JP='
+                    it.password = ''
                 }
             }
         }
