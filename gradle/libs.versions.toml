@@ -1,0 +1,23 @@
+[versions]
+agp = "8.3.2"
+easyhttp = "1.0.0"
+kotlin = "1.9.0"
+coreKtx = "1.12.0"
+lifecycleRuntimeKtx = "2.7.0"
+appcompat = "1.6.1"
+material = "1.11.0"
+okhttpVersion = "4.10.0"
+
+[libraries]
+androidx-core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "coreKtx" }
+easyHttp = { module = "android.jie:easyHttp", version.ref = "easyhttp" }
+androidx-lifecycle-runtime-ktx = { group = "androidx.lifecycle", name = "lifecycle-runtime-ktx", version.ref = "lifecycleRuntimeKtx" }
+androidx-appcompat = { group = "androidx.appcompat", name = "appcompat", version.ref = "appcompat" }
+material = { group = "com.google.android.material", name = "material", version.ref = "material" }
+okhttp = { group = "com.squareup.okhttp3", name = "okhttp", version.ref = "okhttpVersion" }
+
+[plugins]
+androidApplication = { id = "com.android.application", version.ref = "agp" }
+jetbrainsKotlinAndroid = { id = "org.jetbrains.kotlin.android", version.ref = "kotlin" }
+androidLibrary = { id = "com.android.library", version.ref = "agp" }
+
